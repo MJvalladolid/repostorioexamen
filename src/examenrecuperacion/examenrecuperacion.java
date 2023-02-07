@@ -14,16 +14,16 @@ ejecutar(comando);
 }
 import java.io.*;
 import java.util.*;
-public class calculos{
-static void calculo1(){
-System.out.println("Fórmulas cálculo 1");
-//desarrollo de fórmulas
+public class lectura{
+public static String lectura() {
+String cad="";
+BufferedReader br;
+br=new BufferedReader(new InputStreamReader(System.in));
+try{
+cad=br.readLine();
+} catch (I0Exception e){
+e.printStackTrace();
 }
-static void calculo2(){
-System.out.println("Fórmulas cálculo 2");
-//desarrollo de fórmulas
-}
-static void calculo3() {
-System.out.print("formulas calculo 3");
+return cad;
 }
 }
