@@ -16,6 +16,7 @@ import java.io.*;
 import java.util.*;
 public class lectura{
 public static String lectura() {
+	System.out.ptintln("cadena vacia");
 String cad="";
 BufferedReader br;
 br=new BufferedReader(new InputStreamReader(System.in));
